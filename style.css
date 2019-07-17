@@ -27,10 +27,16 @@ body{
     box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.2);
     /* border-radius: 10px; */
     padding:30px;
-    animation: enter 2s ease;
+    animation: enter 1s ease-out;
     margin: 30px 0;
 }
 
+
+.footer{
+    text-align: center;
+    margin:50px;
+    opacity: 0.5;
+}
 
 a{
     text-decoration: none;
@@ -43,10 +49,11 @@ a{
 @keyframes enter{
     0% {
         opacity: 0;
-        
+        margin-top: 200px;
 	}
 	100% {
-		opacity: 1;
+        opacity: 1;
+        margin-top: 30px;
 	}
 }
 
