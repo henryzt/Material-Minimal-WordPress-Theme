@@ -9,10 +9,15 @@
 </head>
 <body <?php body_class() ?>>
 
-    <div class="content">
-        <header>
-            <h1><a href="<?php home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
-            <h4><?php bloginfo('description') ?></h4>
+    
+        <header class="material_cover">
+            <div class="padWidth header">
+                <h1><a class="title" href="<?php home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+                <h4><?php bloginfo('description') ?></h4>
+            </div>
         </header>
+
+
+        <div class="content padWidth">
 
     
