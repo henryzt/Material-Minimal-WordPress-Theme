@@ -67,7 +67,8 @@ body{
 }
 
 .block_zoom{
-    transform: scale(1.7);
+    transform: scale(1.5);
+    opacity: -1;
 }
 
 .post_list{
