@@ -22,7 +22,7 @@ body{
 
 .material_cover{
     background: #3987cb;
-    height: 260px;
+    height: 300px;
     position: relative;
     top:0;
 }
@@ -31,7 +31,7 @@ body{
     position: relative;
     padding:30px;
     line-height: 30px;
-    top: -120px;
+    top: -160px;
 }
 
 .header{
@@ -48,9 +48,14 @@ body{
     background: white;
     box-shadow: 0 30px 50px 0  rgba(0,0,0,0.1);
     /* border-radius: 10px; */
-    padding:30px;
+    padding:50px;
     animation: enter 1s ease-out;
     margin: 30px 0;
+}
+
+.post_list{
+    display: flex;
+    align-items: center;
 }
 
 
@@ -65,6 +70,11 @@ a{
     text-decoration: none;
     color: #3987cb;
 }
+
+img{
+    max-width: 100%;
+    height: auto;
+  }
 
 @keyframes footer_enter{
     0%      { opacity: 0;   }
