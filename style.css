@@ -44,6 +44,14 @@ body{
     color:white;
 }
 
+.post_title{
+    font-size: 28px;
+}
+
+.post_title:hover{
+    text-shadow: 1px 6px 4px #a5a8ad88;
+}
+
 .block{
     background: white;
     box-shadow: 0 30px 50px 0  rgba(0,0,0,0.1);
@@ -51,6 +59,15 @@ body{
     padding:50px;
     animation: enter 1s ease-out;
     margin: 30px 0;
+    transition: all 0.5s ease-out;
+}
+
+.block:hover{
+    box-shadow: 0 30px 50px 0  rgba(0, 101, 184, 0.2);
+}
+
+.block_zoom{
+    transform: scale(1.7);
 }
 
 .post_list{
@@ -69,12 +86,23 @@ body{
 a{
     text-decoration: none;
     color: #3987cb;
+    transition: all 0.5s ease-out;
+}
+
+a:hover{
+    opacity:0.7;
 }
 
 img{
     max-width: 100%;
     height: auto;
+    transition: all 0.5s ease-out;
   }
+
+img:hover{
+    opacity: 0.85;
+    box-shadow: 0 5px 30px 0  rgba(0, 0, 0, 0.2);
+}
 
 @keyframes footer_enter{
     0%      { opacity: 0;   }
